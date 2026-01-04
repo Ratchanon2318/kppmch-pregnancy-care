@@ -1,0 +1,153 @@
+{
+  "type": "flex",
+  "altText": "ข้อมูลเพิ่มเติม",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Help Center",
+            "weight": "bold",
+            "size": "xl",
+            "align": "center",
+            "color": "#333333",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "ศูนย์ช่วยเหลือสำหรับคุณแม่ตั้งครรภ์และลูกน้อย หากคุณแม่มีคำถามหรืออยากหาข้อมูล เลือกหัวข้อด้านล่างได้เลยนะคะ",
+            "size": "sm",
+            "align": "center",
+            "color": "#666666",
+            "wrap": true
+          }
+        ],
+        "spacing": "sm"
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#F8F9FA"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "เว็บไซต์ทางการ (Official Website)",
+              "uri": "https://kppmch-pregnant.vercel.app/",
+              "altUri": {
+                "desktop": "https://kppmch-pregnant.vercel.app/"
+              }
+            },
+            "color": "#fd7a7a"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "ข้อมูลเกี่ยวกับเรา",
+              "text": "เกี่ยวกับเรา"
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "ควรฝากครรภ์เมื่อไหร่?",
+              "text": "ควรฝากครรภ์เมื่อไหร่?"
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "โดยบุคลากรผู้เชี่ยวชาญ",
+              "text": "บุคลากร"
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "คำถามที่พบบ่อย",
+              "text": "คำถามที่พบบ่อย"
+            },
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "ประชาสัมพันธ์",
+              "text": "ประชาสัมพันธ์"
+            },
+            "margin": "md"
+          }
+        ],
+        "spacing": "sm"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      }
+    ],
+    "spacing": "md",
+    "paddingAll": "20px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Available 24/7",
+            "size": "xs",
+            "color": "#999999",
+            "flex": 1,
+            "align": "center"
+          }
+        ],
+        "margin": "md"
+      }
+    ],
+    "backgroundColor": "#F8F9FA"
+  }
+}
+}

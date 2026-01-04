@@ -1,0 +1,119 @@
+{
+  "type": "flex",
+  "altText": "ควรฝากครรภ์เมื่อไหร่?",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://kppmch-pregnant.vercel.app/content/when-to-care.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "backgroundColor": "#FADBD8"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "spacing": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ควรฝากครรภ์เมื่อไหร่?",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#e86264"
+          },
+          {
+            "type": "text",
+            "text": "การฝากครรภ์โดยเร็วที่สุดเป็นสิ่งสำคัญอย่างยิ่ง เพื่อให้แน่ใจว่าทั้งคุณแม่และลูกน้อยในครรภ์จะได้รับการดูแลที่ดีที่สุดตั้งแต่เริ่มต้น",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "คำตอบที่ดีที่สุด: ทันทีที่รู้ว่าตั้งครรภ์",
+                "wrap": true,
+                "size": "sm",
+                "color": "#555555"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ทันทีที่รู้ว่าตั้งครรภ์: ควรไปพบแพทย์เพื่อฝากครรภ์ทันที หรืออย่างช้าที่สุดคือภายในไตรมาสแรก (ไม่เกิน 12 สัปดาห์)",
+                "wrap": true,
+                "size": "sm",
+                "color": "#555555"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "การตรวจครั้งแรกสำคัญที่สุด: แพทย์จะประเมินความเสี่ยง, ตรวจเลือด, และให้คำแนะนำที่จำเป็น",
+                "wrap": true,
+                "size": "sm",
+                "color": "#555555"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ลดความเสี่ยง: การฝากครรภ์เร็วช่วยให้ตรวจพบและป้องกันภาวะแทรกซ้อนที่อาจเกิดขึ้นได้ ทำให้การตั้งครรภ์ของคุณแม่ปลอดภัยยิ่งขึ้น",
+                "wrap": true,
+                "size": "sm",
+                "color": "#555555"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [],
+    "paddingAll": "lg"
+  }
+}
+}

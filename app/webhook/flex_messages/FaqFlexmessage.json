@@ -1,0 +1,249 @@
+{
+  "type": "flex",
+  "altText": "คำถามที่พบบ่อย (FAQ)",
+  "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "คำถามที่พบบ่อย(FAQ)",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#e86264",
+        "align": "center"
+      }
+    ],
+    "paddingAll": "xl",
+    "backgroundColor": "#FEF2F2"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "lg",
+    "paddingAll": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: ควรเริ่มฝากครรภ์เมื่อไหร่?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "A: ควรมาฝากครรภ์โดยเร็วที่สุดเมื่อทราบว่าตั้งครรภ์ หรืออย่างช้าที่สุดไม่ควรเกิน 12 สัปดาห์ค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: ต้องเตรียมเอกสารอะไรมาบ้าง?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "A: กรุณานำบัตรประชาชน, ทะเบียนบ้าน, และสมุดบันทึกสุขภาพ (ถ้ามี) มาด้วยนะคะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: มีค่าใช้จ่ายเท่าไหร่?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "A: สามารถใช้สิทธิ์การรักษาพยาบาล เช่น บัตรทอง, ประกันสังคม โดยไม่มีค่าใช้จ่ายเพิ่มเติมค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: ฝากครรภ์นอกเวลาราชการได้หรือไม่?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: ปัจจุบันคลินิกเปิดให้บริการในวันและเวลาราชการเท่านั้นค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: หากมีอาการผิดปกติ ควรทำอย่างไร?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: หากมีอาการผิดปกติ เช่น ปวดท้องรุนแรง, มีเลือดออก, หรือลูกดิ้นน้อยลง ควรรีบมาพบแพทย์ทันทีโดยไม่ต้องรอวันนัดค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: คลินิกมีบริการอะไรบ้าง?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: นอกจากฝากครรภ์ เรายังมีบริการวางแผนครอบครัว, ตรวจสุขภาพหลังคลอด, และคลินิกสุขภาพเด็กดีค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: การอัลตราซาวด์จำเป็นหรือไม่?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: จำเป็นค่ะ เพื่อประเมินการเจริญเติบโตของทารก โดยทั่วไปจะทำอย่างน้อย 2 ครั้ง และอาจทำเพิ่มเติมตามความจำเป็นค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: อาการแบบไหนที่ควรระวังเป็นพิเศษ?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: เช่น เลือดออกทางช่องคลอด, ปวดท้องรุนแรง, มีไข้สูง, ปวดศีรษะรุนแรงพร้อมตาพร่ามัว, หรือลูกดิ้นน้อยลงผิดปกติ ควรรีบมาพบแพทย์ทันทีค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: หลังคลอดต้องดูแลตัวเองอย่างไรบ้าง?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: คุณแม่หลังคลอดควรพักผ่อนให้เพียงพอ, รับประทานอาหารที่มีประโยชน์, ดื่มน้ำมากๆ, และดูแลความสะอาดของแผลฝีเย็บหรือแผลผ่าตัดคลอดตามคำแนะนำของแพทย์ และควรมาตรวจหลังคลอดตามนัดเพื่อประเมินสุขภาพของคุณแม่ค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Q: หลังคลอดแล้วต้องมาตรวจอีกหรือไม่?",
+            "weight": "bold",
+            "color": "#555555",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "A: จำเป็นอย่างยิ่งค่ะ คุณแม่ควรมาตรวจสุขภาพหลังคลอดตามนัด (ปกติคือ 6 สัปดาห์หลังคลอด) เพื่อประเมินการฟื้นตัวและรับคำแนะนำเรื่องการดูแลตัวเองและลูกน้อยค่ะ",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666"
+          }
+        ]
+      }
+    ]
+  }
+}
+}

@@ -1,0 +1,159 @@
+/* =====================================================================
+ * Page Wrapper & Layout
+ * ===================================================================== */
+.pageWrapper {
+  min-height: 100vh;
+  background-color: var(--color-brand-pink-lightest);
+  padding: 3rem 1rem;
+  font-family: 'Mitr', sans-serif;
+}
+
+@media (min-width: 640px) {
+  .pageWrapper {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pageWrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* =====================================================================
+ * Content Container
+ * ===================================================================== */
+.contentContainer {
+  max-width: 56rem; /* max-w-4xl */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  color: var(--text-primary);
+}
+
+@media (min-width: 768px) {
+  .contentContainer {
+    padding: 3rem;
+  }
+}
+
+/* =====================================================================
+ * Typography
+ * ===================================================================== */
+.mainTitle {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-brand-pink);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .mainTitle {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+}
+
+.lastUpdated {
+  text-align: center;
+  color: var(--text-subtle);
+  margin-bottom: 2.5rem;
+}
+
+.paragraph {
+  margin-bottom: 1.5rem;
+  line-height: 1.75;
+}
+
+.sectionTitle {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
+  border-bottom: none; /* เอาเส้นขอบเก่าออก */
+}
+
+@media (min-width: 768px) {
+  .sectionTitle {
+    font-size: 1.875rem; /* md:text-3xl */
+  }
+}
+
+/* เพิ่มเส้นขอบล่างแบบใหม่ที่สวยงามขึ้น */
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px; /* ทำให้เส้นสั้นลง */
+  height: 3px; /* ทำให้เส้นหนาขึ้น */
+  background-color: var(--color-brand-pink);
+}
+
+.subSectionTitle {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .subSectionTitle {
+    font-size: 1.5rem; /* md:text-2xl */
+  }
+}
+
+.tertiaryTitle {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .tertiaryTitle {
+    font-size: 1.25rem; /* md:text-xl */
+  }
+}
+
+.list {
+  list-style-type: none; /* เอา bullet point เริ่มต้นออก */
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.listItem {
+  position: relative;
+  padding-left: 1.75rem; /* สร้างพื้นที่สำหรับไอคอน */
+  line-height: 1.6;
+}
+
+/* สร้าง custom bullet point เป็นไอคอน check */
+.listItem::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: var(--color-brand-pink);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contactLink {
+  color: var(--color-brand-pink-darker);
+  font-weight: 600;
+  text-decoration: none;
+}
+.contactLink:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,167 @@
+/**
+ * =====================================================================
+ * NAVBAR STYLES
+ * =====================================================================
+ */
+
+/* --- Main Navbar Container --- */
+.navbar {
+  background-color: var(--color-brand-pink-lightest);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+  padding: 0.75rem 1.5rem; /* Simplified padding */
+}
+
+/* --- Content Wrapper (จำกัดความกว้างและจัดกึ่งกลาง) --- */
+.navContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- Logo --- */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logoTextContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logoMainText {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 0.9rem; /* ปรับขนาดให้พอดี */
+}
+
+.logoSubText {
+  font-size: 0.75rem; /* text-xs */
+  color: var(--text-subtle);
+}
+
+.logoImage {
+  height: 2.5rem; /* h-10 */
+  width: auto;
+}
+
+/* --- Desktop Navigation Links --- */
+.navLinks {
+  display: none; /* Hide on mobile by default */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.25rem; /* space-x-1 */
+}
+
+/* สไตล์ของลิงก์แต่ละรายการบน Desktop */
+.navLink {
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 0.5rem 0.75rem; /* px-3 py-2 */
+  border-radius: var(--border-radius-md);
+  font-size: 0.875rem; /* text-sm */
+}
+
+/* สไตล์เมื่อนำเมาส์ไปชี้ (hover) หรือเมื่อลิงก์นั้นกำลังใช้งาน (active) */
+.navLink:hover,
+.navLinkActive {
+  color: var(--color-brand-pink);
+  font-weight: 600;
+  background-color: rgba(247, 217, 217, 0.5); /* Light pink background */
+}
+
+/**
+ * --- Mobile Menu Styles ---
+ * สไตล์สำหรับเมนูบนมือถือ (Hamburger Menu)
+ */
+.hamburgerButton {
+  display: block; /* Show on mobile */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--text-primary); /* เปลี่ยนเป็นสีเทาเข้มเพื่อให้เห็นชัดขึ้น */
+}
+
+.hamburgerIcon {
+  height: 1.5rem; /* 24px */
+  width: 1.5rem; /* 24px */
+ 
+}
+
+/* Container ของเมนูบนมือถือที่เลื่อนลงมา */
+.mobileMenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the navbar */
+  left: 0;
+  right: 0;
+  background-color: var(--color-brand-pink-lightest);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: 40;
+}
+
+/* คลาสที่จะถูกเพิ่มเมื่อเมนูเปิดอยู่ */
+.mobileMenu.open {
+  display: block;
+}
+
+.mobileNavList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Corresponds to space-y-1 */
+}
+
+/* สไตล์ของลิงก์แต่ละรายการบนมือถือ */
+.mobileNavLink {
+  display: block;
+  padding: 0.5rem 1rem 0.5rem 0.75rem; /* pl-3 pr-4 py-2 */
+  border-left: 4px solid transparent;
+  font-size: 1rem; /* text-base */
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+}
+
+.mobileNavLink:hover {
+  background-color: var(--color-brand-pink-lightest);
+  border-left-color: var(--color-brand-pink-light);
+  color: var(--text-primary);
+}
+
+/* สไตล์เมื่อลิงก์บนมือถือกำลังใช้งาน (active) */
+.mobileNavLinkActive {
+  border-left-color: var(--color-brand-pink);
+  color: var(--color-brand-pink);
+  font-weight: 600;
+}
+
+/* --- Responsive Media Query --- */
+/* สไตล์ที่จะถูกใช้เมื่อความกว้างหน้าจอ 768px ขึ้นไป (Desktop) */
+@media (min-width: 768px) {
+  .navLinks {
+    display: flex; /* Show on desktop */
+  }
+  .hamburgerButton {
+    display: none;
+  }
+  .mobileMenu {
+    display: none !important;
+  }
+}

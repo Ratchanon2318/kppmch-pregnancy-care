@@ -1,0 +1,121 @@
+{
+  "type": "flex",
+  "altText": "เกี่ยวกับเรา - งานส่งเสริมสุขภาพแม่และเด็ก",
+  "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "video",
+    "url": "https://res.cloudinary.com/ds6xq6wbm/video/upload/v1758433036/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81_bkvf3s.mp4",
+    "previewUrl": "https://res.cloudinary.com/ds6xq6wbm/video/upload/v1758433036/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%81_bkvf3s.mp4",
+    "altContent": {
+      "type": "image",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover",
+      "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759021274/ChatGPT_Image_28_%E0%B8%81.%E0%B8%A2._2568_08_01_01_d3cek0.png"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "spacing": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ยินดีต้อนรับสู่คลินิกของเรา",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#555555"
+          },
+          {
+            "type": "text",
+            "text": "เราคือทีมงานที่พร้อมดูแลคุณแม่และลูกน้อยด้วยหัวใจ บนเส้นทางที่พิเศษที่สุดในชีวิต ด้วยความเข้าใจอย่างลึกซึ้งว่าการตั้งครรภ์เป็นช่วงเวลาที่สำคัญที่สุด",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เราเชื่อมั่นในการดูแลที่อบอุ่น เป็นกันเอง และเปี่ยมด้วยคุณภาพจากทีมแพทย์และบุคลากรผู้เชี่ยวชาญ เพื่อให้คุณแม่ทุกท่านมั่นใจและมีความสุขตลอดการเดินทางครั้งนี้",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm",
+            "margin": "sm"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "บุคลากรของเราพร้อมให้การดูแลคุณด้วยความเชี่ยวชาญและใส่ใจในทุกรายละเอียด เพื่อให้คุณแม่และลูกน้อยมีสุขภาพที่แข็งแรง",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm",
+            "margin": "sm"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#e86264",
+        "action": {
+          "type": "uri",
+          "label": "เยี่ยมชมเว็บไซต์",
+          "uri": "https://kppmch-pregnant.vercel.app/About"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {
+          "type": "uri",
+          "label": "ติดต่อเรา",
+          "uri": "https://kppmch-pregnant.vercel.app/Contact",
+          "altUri": {
+            "desktop": "https://kppmch-pregnant.vercel.app/Contact"
+          }
+        },
+        "height": "sm"
+      }
+    ],
+    "paddingAll": "lg"
+  }
+}
+}

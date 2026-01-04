@@ -1,0 +1,297 @@
+{
+  "type": "flex",
+  "altText": "ความรู้เกี่ยวกับการวางแผนครอบครัว",
+  "contents":{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1753160026/S__5660751_npymmc.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ยาคุมกำเนิดแบบเม็ด: วิธีใช้ให้ได้ผลและปลอดภัย",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "น.ส.มณฑ์ศิริ กล่อมยัง",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ยาคุมเม็ดช่วยคุมกำเนิด กินวันละ 1 เม็ดตรงเวลา เริ่มวันแรกของประจำเดือนจะคุมได้ทันที หากลืมเกิน 12 ชั่วโมงควรใช้ถุงยางร่วม และไม่ป้องกันโรคติดต่อทางเพศสัมพันธ์",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://line.me/R/home/public/post?postId=1175426327926666176",
+              "altUri": {
+                "desktop": "https://linevoom.line.me/post/1175426327926666176"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755254229/%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%89%E0%B8%B5%E0%B8%94-2_sqyvok.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ยาฉีดคุมกำเนิด: สะดวก ป้องกันได้ดี",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "น.ส.มณฑ์ศิริ กล่อมยัง",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ยาฉีดคุมกำเนิดมีทั้งฮอร์โมนรวมและโปรเจสเตอโรนเดี่ยว ฉีดทุก 1–3 เดือน คุมกำเนิดได้ดี ลดปัญหาประจำเดือน แต่ประจำเดือนอาจกลับมาช้าหลังหยุดใช้ มีผลข้างเคียง และไม่ป้องกันโรคติดต่อ ควรใช้ถุงยางร่วมด้วย",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://line.me/R/home/public/post?postId=1175426497626703042",
+              "altUri": {
+                "desktop": "https://linevoom.line.me/post/1175426497626703042"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755254230/%E0%B8%A2%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9D%E0%B8%B1%E0%B8%87-3_hsucol.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ยาคุมกำเนิดแบบฝัง: คุมได้นาน ปลอดภัย",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "น.ส.มณฑ์ศิริ กล่อมยัง",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ยาคุมกำเนิดแบบฝังเป็นแท่งฮอร์โมนใต้ผิวหนัง คุมกำเนิด 3–5 ปี มีประสิทธิภาพสูงและสะดวก แต่มีผลข้างเคียง เช่น ประจำเดือนผิดปกติหรือสิว และควรทำโดยแพทย์",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://line.me/R/home/public/post?postId=1175426540426713248",
+              "altUri": {
+                "desktop": "https://linevoom.line.me/post/1175426540426713248"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+}

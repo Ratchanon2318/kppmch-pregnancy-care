@@ -1,0 +1,135 @@
+{
+  "type": "flex",
+  "altText": "ทีมบุคลากรผู้เชี่ยวชาญของเรา",
+  "contents":{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755304624/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2025-08-16_073646_hacz3k.png",
+        "size": "full",
+        "aspectRatio": "1:1",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พญ.จริดา สันธิติพงศ์",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#e86264"
+          },
+          {
+            "type": "text",
+            "text": "แพทย์หญิง",
+            "weight": "bold",
+            "size": "md",
+            "color": "#AAAAAA",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "คุณแม่ไม่ต้องกังวลนะคะ เราจะดูแลคุณแม่และลูกน้อยอย่างใส่ใจ",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm",
+            "style": "italic"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1756959047/staff2_s9scon.jpg",
+        "size": "full",
+        "aspectRatio": "1:1",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "นางสาวมณฑ์ศิริ กล่อมยัง",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#e86264"
+          },
+          {
+            "type": "text",
+            "text": "พยาบาลวิชาชีพชำนาญการ",
+            "weight": "bold",
+            "size": "md",
+            "color": "#AAAAAA",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "คุณแม่ไม่ต้องกังวลนะคะ เราจะดูแลคุณแม่และลูกน้อยอย่างใส่ใจ",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm",
+            "style": "italic"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759563982/518957926_122134307204712499_1996354269044562281_n_yakvv8.jpg",
+        "size": "full",
+        "aspectRatio": "1:1",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "paddingAll": "xl",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "นางสาวกุลสินี สาพาที",
+            "weight": "bold",
+            "size": "lg",
+            "color": "#e86264"
+          },
+          {
+            "type": "text",
+            "text": "พยาบาลวิชาชีพชำนาญการ",
+            "weight": "bold",
+            "size": "md",
+            "color": "#AAAAAA",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "คุณแม่ไม่ได้อยู่คนเดียวค่ะ ทีมแพทย์และครอบครัวอยู่ข้างๆ คุณแม่เสมอ",
+            "wrap": true,
+            "color": "#666666",
+            "size": "sm",
+            "style": "italic"
+          }
+        ]
+      }
+    }
+  ]
+}
+}

@@ -1,0 +1,177 @@
+{
+  "type": "flex",
+  "altText": "โครงการส่งเสริมสุขภาพแม่และเด็ก",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://scontent.fbkk29-9.fna.fbcdn.net/v/t39.30808-6/490683672_122121652772712499_6636319532824656761_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uNAl1O10kOgQ7kNvwHdG527&_nc_oc=AdlhB76Fyy1Krrro632L82fFGVkOyqiUFPxvOKoKK6pO-5zkUxs-p6bGlRA_jtILHIyzHgYZE4AysPXZ4e4JRp9j&_nc_zt=23&_nc_ht=scontent.fbkk29-9.fna&_nc_gid=HMX6V8r5RvSMxKVc-2Okqg&oh=00_AfZ9bM2dbztcGE-Jnc3y_fNmYqDRNQXwISH_Za1U_iGDjg&oe=68DE8305",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://kppmch-pregnant.vercel.app/"
+    },
+    "backgroundColor": "#FADADD"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "paddingAll": "xl",
+    "spacing": "xl",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "โครงการส่งเสริมสุขภาพแม่และเด็ก",
+            "weight": "bold",
+            "size": "xl",
+            "color": "#e86264",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "โดย งานส่งเสริมฯ รพช.ทม.กำแพงเพชร",
+            "size": "sm",
+            "color": "#888888"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "เรามุ่งมั่นที่จะมอบการดูแลสุขภาพสำหรับคุณแม่และลูกน้อยอย่างครบวงจร ด้วยความเข้าใจว่าการตั้งครรภ์เป็นช่วงเวลาที่พิเศษและสำคัญที่สุดในชีวิต",
+        "wrap": true,
+        "color": "#555555",
+        "size": "sm"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "บริการหลักของเรา",
+            "weight": "bold",
+            "color": "#333333",
+            "size": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023063/3_fxoy2d.png",
+                    "size": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ฝากครรภ์คุณภาพ",
+                    "color": "#555555",
+                    "wrap": true,
+                    "size": "sm",
+                    "gravity": "center",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023064/4_o8ydpc.png",
+                    "size": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "วางแผนครอบครัวและคุมกำเนิด",
+                    "color": "#555555",
+                    "wrap": true,
+                    "size": "sm",
+                    "gravity": "center",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023064/5_tilfpy.png",
+                    "size": "sm"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ติดตามพัฒนาการเด็ก",
+                    "color": "#555555",
+                    "wrap": true,
+                    "size": "sm",
+                    "gravity": "center",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "color": "#e86264",
+        "action": {
+          "type": "uri",
+          "label": "เยี่ยมชมเว็บไซต์",
+          "uri": "https://kppmch-pregnant.vercel.app/"
+        },
+        "height": "sm"
+      },
+      {
+        "type": "button",
+        "style": "secondary",
+        "action": {
+          "type": "uri",
+          "label": "ติดต่อเรา",
+          "uri": "https://kppmch-pregnant.vercel.app/Contact",
+          "altUri": {
+            "desktop": "https://kppmch-pregnant.vercel.app/Contact"
+          }
+        },
+        "height": "sm"
+      }
+    ]
+  }
+}
+}
+

@@ -1,0 +1,41 @@
+/**
+ * =====================================================================
+ * BACK TO TOP BUTTON STYLES
+ * =====================================================================
+ */
+
+/* Container หลักของปุ่ม ใช้สำหรับกำหนดตำแหน่ง fixed */
+.backToTopContainer {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+}
+
+/* สไตล์ของตัวปุ่ม */
+.backToTopButton {
+  background-color: var(--color-brand-pink);
+  color: var(--text-on-brand);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px; /* rounded-full */
+  box-shadow: var(--shadow-lg);
+  transition: background-color 0.3s, transform 0.3s;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* สไตล์เมื่อนำเมาส์ไปชี้ (hover) */
+.backToTopButton:hover {
+  background-color: var(--color-brand-pink-darker);
+  transform: scale(1.1);
+}
+
+/* สไตล์ของไอคอนลูกศรภายในปุ่ม */
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}

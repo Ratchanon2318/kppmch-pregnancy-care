@@ -1,0 +1,516 @@
+{
+  "type": "flex",
+  "altText": "ตารางนัดหมายและการจองคิว",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ตารางออกตรวจแพทย์",
+        "color": "#FFFFFF",
+        "align": "center",
+        "gravity": "center"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "offsetTop": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "หยุดเสาร์-อาทิตย์และวันนักขัตฤกษ์",
+            "color": "#FFFFFF",
+            "size": "xl",
+            "align": "center",
+            "gravity": "center",
+            "weight": "bold"
+          }
+        ],
+        "offsetTop": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "offsetTop": "xl",
+        "paddingAll": "lg"
+      }
+    ],
+    "backgroundColor": "#e86264"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "วัน",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "09.00 - 11.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          },
+          {
+            "type": "text",
+            "text": "13.00 - 15.30 น.",
+            "weight": "bold",
+            "size": "sm",
+            "flex": 4,
+            "align": "center",
+            "gravity": "center",
+            "color": "#333333"
+          }
+        ],
+        "paddingBottom": "sm"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จันทร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฝากครรภ์,วางแผนครอบครัว",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(พญ.จริดา สันธิติพงศ์)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "พัฒนาการเด็ก",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(คุณมณฑ์ศิริ กล่อมยัง, พยาบาลวิชาชีพชำนาญการ)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "อังคาร",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฝากครรภ์,วางแผนครอบครัว",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(พญ.จริดา สันธิติพงศ์)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "พัฒนาการเด็ก",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(คุณมณฑ์ศิริ กล่อมยัง, พยาบาลวิชาชีพชำนาญการ)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พุธ",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฝากครรภ์,วางแผนครอบครัว",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(พญ.จริดา สันธิติพงศ์)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "พัฒนาการเด็ก",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(คุณมณฑ์ศิริ กล่อมยัง, พยาบาลวิชาชีพชำนาญการ)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "พฤหัสบดี",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฝากครรภ์,วางแผนครอบครัว",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(พญ.จริดา สันธิติพงศ์)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "พัฒนาการเด็ก",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(คุณมณฑ์ศิริ กล่อมยัง, พยาบาลวิชาชีพชำนาญการ)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ศุกร์",
+            "size": "sm",
+            "flex": 2,
+            "align": "center",
+            "gravity": "center"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "ฝากครรภ์,วางแผนครอบครัว",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(พญ.จริดา สันธิติพงศ์)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 4,
+            "contents": [
+              {
+                "type": "text",
+                "text": "พัฒนาการเด็ก",
+                "size": "xs",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true
+              },
+              {
+                "type": "text",
+                "text": "(คุณมณฑ์ศิริ กล่อมยัง, พยาบาลวิชาชีพชำนาญการ)",
+                "size": "xxs",
+                "color": "#888888",
+                "align": "center",
+                "gravity": "center",
+                "wrap": true,
+                "margin": "sm"
+              }
+            ]
+          }
+        ],
+        "paddingTop": "md",
+        "paddingBottom": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ที่ตั้ง :",
+            "weight": "bold",
+            "size": "md",
+            "color": "#333333",
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "35 ซ.2 ถ.ราชดำเนิน 1 ต.ในเมือง อ.เมือง จ.กำแพงเพชร 62000",
+            "wrap": true,
+            "size": "sm",
+            "color": "#666666",
+            "margin": "sm"
+          },
+          {
+            "type": "image",
+            "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759018712/%E0%B8%AA%E0%B8%81%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%8A%E0%B9%87%E0%B8%AD%E0%B8%95_2025-09-28_071748_ntkrit.png",
+            "size": "full",
+            "aspectRatio": "16:9",
+            "aspectMode": "cover",
+            "margin": "lg",
+            "action": {
+              "type": "uri",
+              "label": "ดูแผนที่",
+              "uri": "https://maps.app.goo.gl/476B9SRvUWvMctSm7"
+            }
+          }
+        ],
+        "paddingAll": "md"
+      }
+    ],
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "https://kppmch-pregnant.vercel.app/#services-table",
+      "altUri": {
+        "desktop": "https://kppmch-pregnant.vercel.app/#services-table"
+      }
+    }
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ลงทะเบียนนัดหมาย",
+          "uri": "https://kppmch-pregnant.vercel.app/PregnancyAppointmentSchedule",
+          "altUri": {
+            "desktop": "https://kppmch-pregnant.vercel.app/PregnancyAppointmentSchedule"
+          }
+        },
+        "style": "link",
+        "color": "#e86264"
+      }
+    ]
+  }
+}
+}

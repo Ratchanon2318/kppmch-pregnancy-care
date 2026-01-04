@@ -1,0 +1,307 @@
+{
+  "type": "flex",
+  "altText": "ความรู้สำหรับคุณแม่ตั้งครรภ์",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ความรู้สำหรับคุณแม่ตั้งครรภ์",
+        "weight": "bold",
+        "size": "md",
+        "color": "#ffffff",
+        "align": "center"
+      }
+    ],
+    "height": "58px",
+    "backgroundColor": "#A0522D"
+  },
+  "body": {
+    "type": "box",
+    "backgroundColor": "#D2B48C",
+    "layout": "vertical",
+    "paddingAll": "lg",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "paddingBottom": "lg",
+        "backgroundColor": "#A0522D"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "spacing": "sm",
+        "height": "160px",
+        "alignItems": "flex-end",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "height": "100%",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "ความรู้หญิงตั้งครรภ์"
+            },
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "8px",
+                "backgroundColor": "#D39E9F",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#FADADD",
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ความรู้หญิงตั้งครรภ์",
+                    "color": "#583C3C",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "height": "100%",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "ความรู้เกี่ยวกับการวางแผนครอบครัว"
+            },
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "8px",
+                "backgroundColor": "#87A9C4",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#BDE0FE",
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ความรู้การวางแผนครอบครัว",
+                    "color": "#3A4F62",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "height": "100%",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://youtu.be/j0k_vyA6mXQ?si=_1-UUJQ4ijseTVJZ",
+              "altUri": {
+                "desktop": "https://youtu.be/j0k_vyA6mXQ?si=_1-UUJQ4ijseTVJZ"
+              }
+            },
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "8px",
+                "backgroundColor": "#A3B899",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#CDB4DB",
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "โภชนาการหญิงตั้งครรภ์",
+                    "color": "#53465B",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "height": "12px",
+        "backgroundColor": "#A0522D",
+        "margin": "sm",
+        "contents": []
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "spacing": "sm",
+        "height": "160px",
+        "alignItems": "flex-end",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "flex": 1,
+            "height": "100%",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://youtu.be/3BecJGQMGX8?si=n6yg6JHVHH8Subxn",
+              "altUri": {
+                "desktop": "https://youtu.be/3BecJGQMGX8?si=n6yg6JHVHH8Subxn"
+              }
+            },
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "width": "8px",
+                "backgroundColor": "#FF9E80",
+                "contents": []
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "backgroundColor": "#FFDAB9",
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "อันตรายคลอดก่อนกำหนด",
+                    "color": "#6B4226",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "height": "100%",
+            "backgroundColor": "#DCDCDC",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "-ว่าง-",
+                    "color": "#3E2723",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "height": "100%",
+            "backgroundColor": "#DCDCDC",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "flex": 1,
+                "justifyContent": "center",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "-ว่าง-",
+                    "size": "xxs",
+                    "wrap": true,
+                    "align": "center",
+                    "gravity": "center",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "height": "12px",
+        "backgroundColor": "#A0522D",
+        "margin": "sm",
+        "contents": []
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#A0522D"
+    },
+    "body": {
+      "backgroundColor": "#F0EAD6"
+    },
+    "footer": {
+      "backgroundColor": "#F0EAD6"
+    }
+  }
+}
+}

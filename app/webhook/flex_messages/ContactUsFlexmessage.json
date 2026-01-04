@@ -1,0 +1,150 @@
+{
+  "type": "flex",
+  "altText": "ข้อมูลติดต่ออย่างเป็นทางการ",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1758371176/506000536_122130046808712499_5080927062482532603_n_jblnei.jpg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "งามส่งเสริมสุขภาพแม่และเด็ก",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#fd7a7a",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "รบกวนขอสายคุณมนณฑ์ศิรินะคะ",
+        "size": "sm",
+        "color": "#666666",
+        "margin": "md"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "📞",
+                "color": "#2E86C1",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "โทร :",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 4
+              },
+              {
+                "type": "text",
+                "text": "055-716-715",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 3,
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🕐",
+                "color": "#9B59B6",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "35 ซ.2 ถ.ราชดำเนิน 1 ต.ในเมือง อ.เมืองกำแพงเพชร",
+                "color": "#666666",
+                "size": "sm",
+                "flex": 7,
+                "wrap": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "โทรเลย",
+              "uri": "tel:055716715"
+            },
+            "flex": 1
+          },
+          {
+            "type": "button",
+            "style": "secondary",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูแผนที่",
+              "uri": "https://maps.app.goo.gl/dapP53qvxXsBAdD7A",
+              "altUri": {
+                "desktop": "https://maps.app.goo.gl/dapP53qvxXsBAdD7A"
+              }
+            },
+            "flex": 1
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "กรุณาติดต่อในเวลาราชการเท่านั้นนะคะ",
+        "size": "xs",
+        "color": "#999999",
+        "align": "center",
+        "margin": "sm"
+      }
+    ]
+  }
+}
+}

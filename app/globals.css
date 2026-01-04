@@ -1,0 +1,62 @@
+/**
+ * =====================================================================
+ * GLOBAL STYLES & CSS VARIABLES
+ * =====================================================================
+ * ไฟล์นี้ใช้สำหรับกำหนดสไตล์พื้นฐานที่ใช้ทั่วทั้งเว็บไซต์
+ * และกำหนด CSS Variables (ตัวแปร) เพื่อให้ง่ายต่อการจัดการธีมสีและค่าต่างๆ
+ */
+:root {
+  /* Brand Colors (จาก Canva) */
+  --color-brand-pink: #e6a4a6;
+  --color-brand-pink-darker: #d68f91;
+  --color-brand-pink-light: #f7d9d9;
+  --color-brand-pink-lightest: #fdf6f6;
+
+  /* Text Colors */
+  --text-dark: #3a3a3a;
+  --text-primary: #595959; /* Dark Gray จาก Canva */
+  --text-secondary: #475569; /* text-slate-600 */
+  --text-subtle: #64748b; /* text-slate-500 */
+  --text-on-brand: #ffffff;
+
+  /* Background & Surface Colors */
+  --background-light: #fff;
+  --background-brand: var(--color-brand-pink-light);
+
+  /* Border Radius */
+  --section-padding: 5rem 10%;
+  --border-radius-md: 0.5rem; /* 8px */
+  --border-radius-lg: 1rem; /* 16px */
+
+  /* Box Shadows */
+  --shadow-soft: 0 4px 12px -2px rgba(230, 164, 166, 0.2);
+  --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ * การตั้งค่าพื้นฐานสำหรับ HTML และ Body
+ * - scroll-behavior: smooth ทำให้การเลื่อนหน้าจอเมื่อคลิก anchor link นุ่มนวล
+ * - overflow-x: hidden ป้องกันการเกิด horizontal scrollbar ที่ไม่ต้องการ
+ */
+html,
+body {
+  scroll-behavior: smooth;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  font-family: 'Mitr', sans-serif;
+}
+
+/* Reset สไตล์ของ Anchor Tag (ลิงก์) */
+a {
+  color: inherit;
+  text-decoration: none;
+}

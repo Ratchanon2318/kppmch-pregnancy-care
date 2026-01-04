@@ -1,0 +1,284 @@
+{
+  "type": "flex",
+  "altText": "สื่อประชาสัมพันธ์เชิงรุกสำหรับคุณแม่และเด็ก",
+  "contents":{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📢 ข่าวสารและประกาศ",
+        "weight": "bold",
+        "size": "lg",
+        "color": "#FFFFFF",
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "โครงการสร้างเสริมสุขภาพเชิงรุก",
+        "color": "#FFFFFFCC",
+        "size": "sm",
+        "align": "center",
+        "margin": "sm"
+      }
+    ],
+    "backgroundColor": "#e86264",
+    "paddingAll": "lg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "paddingAll": "lg",
+    "backgroundColor": "#F9FAFB",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": "lg",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023063/3_fxoy2d.png",
+                "aspectRatio": "4:3",
+                "aspectMode": "cover",
+                "size": "full"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "paddingAll": "lg",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ดูแลหญิงตั้งครรภ์",
+                    "weight": "bold",
+                    "size": "xs",
+                    "color": "#555555"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ฝากครรภ์เร็ว ตรวจสุขภาพ ป้องกันภาวะแทรกซ้อน",
+                    "wrap": true,
+                    "size": "xxs",
+                    "color": "#888888",
+                    "flex": 1
+                  }
+                ]
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "อ่านเพิ่มเติม",
+                  "uri": "https://drive.google.com/drive/folders/15EU0e0VUvvS4YND9zOIziY32kyYR8E2E?usp=drive_link",
+                  "altUri": {
+                    "desktop": "https://drive.google.com/drive/folders/15EU0e0VUvvS4YND9zOIziY32kyYR8E2E?usp=drive_link"
+                  }
+                },
+                "style": "link",
+                "height": "sm",
+                "color": "#e86264"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": "lg",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023064/4_o8ydpc.png",
+                "aspectRatio": "4:3",
+                "aspectMode": "cover",
+                "size": "full"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "paddingAll": "lg",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ส่งเสริมการคลอดและนมแม่",
+                    "weight": "bold",
+                    "size": "xs",
+                    "color": "#555555"
+                  },
+                  {
+                    "type": "text",
+                    "text": "คลอดปลอดภัย รณรงค์เลี้ยงลูกด้วยนมแม่ 6 เดือน",
+                    "wrap": true,
+                    "size": "xxs",
+                    "color": "#888888",
+                    "flex": 1
+                  }
+                ]
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "อ่านเพิ่มเติม",
+                  "uri": "https://drive.google.com/drive/folders/1_rYuQ7uCVYtWWWi7LfxYlGXfqQr8hTRq?usp=drive_link",
+                  "altUri": {
+                    "desktop": "https://drive.google.com/drive/folders/1_rYuQ7uCVYtWWWi7LfxYlGXfqQr8hTRq?usp=drive_link"
+                  }
+                },
+                "style": "link",
+                "height": "sm",
+                "color": "#e86264"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": "lg",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023064/5_tilfpy.png",
+                "aspectRatio": "4:3",
+                "aspectMode": "cover",
+                "size": "full"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "paddingAll": "lg",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ดูแลเด็กแรกเกิดและเด็กเล็ก",
+                    "weight": "bold",
+                    "size": "xs",
+                    "color": "#555555"
+                  },
+                  {
+                    "type": "text",
+                    "text": "ฉีดวัคซีน ตรวจพัฒนาการ โภชนาการเหมาะสม",
+                    "wrap": true,
+                    "size": "xxs",
+                    "color": "#888888",
+                    "flex": 1
+                  }
+                ]
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "อ่านเพิ่มเติม",
+                  "uri": "https://drive.google.com/drive/folders/1VwLCvPGTU_biKXjIJUZhPkJEN-_aCtxr?usp=drive_link",
+                  "altUri": {
+                    "desktop": "https://drive.google.com/drive/folders/1VwLCvPGTU_biKXjIJUZhPkJEN-_aCtxr?usp=drive_link"
+                  }
+                },
+                "style": "link",
+                "height": "sm",
+                "color": "#e86264"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "flex": 1,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": "lg",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1759023065/6_aly8lk.png",
+                "aspectRatio": "4:3",
+                "aspectMode": "cover",
+                "size": "full"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "paddingAll": "lg",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "สร้างเครือข่ายดูแลแม่และเด็ก",
+                    "weight": "bold",
+                    "size": "xs",
+                    "color": "#555555"
+                  },
+                  {
+                    "type": "text",
+                    "text": "อสม. เยี่ยมบ้าน ระบบส่งต่อและสนับสนุนในชุมชน",
+                    "wrap": true,
+                    "size": "xxs",
+                    "color": "#888888",
+                    "flex": 1
+                  }
+                ]
+              },
+              {
+                "type": "separator"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "อ่านเพิ่มเติม",
+                  "uri": "https://drive.google.com/drive/folders/1KFsyA6ToZzfe3PshVkN1aKc5QW6wN_u6?usp=drive_link",
+                  "altUri": {
+                    "desktop": "https://drive.google.com/drive/folders/1KFsyA6ToZzfe3PshVkN1aKc5QW6wN_u6?usp=drive_link"
+                  }
+                },
+                "style": "link",
+                "height": "sm",
+                "color": "#e86264"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "body": {
+      "separator": false
+    }
+  }
+}
+}

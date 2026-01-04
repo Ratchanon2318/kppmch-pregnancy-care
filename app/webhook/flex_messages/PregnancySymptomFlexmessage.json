@@ -1,0 +1,300 @@
+{
+  "type": "flex",
+  "altText": "ความรู้เกี่ยวกับหญิงตั้งครรภ์",
+  "contents":{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755256492/%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B8%B5%E0%B9%881_r8rz9a.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "คนท้องไตรมาสแรก ปวดอะไรบ้าง?",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "คนท้อง Everything Channel",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ใน 3 เดือนแรกของการตั้งครรภ์ อาการปวดบางอย่างเป็นเรื่องปกติ แต่บางอย่างควรระวังเป็นพิเศษ",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://youtu.be/zmU6Z9IquE0?si=1IAKh74Hm0YeA53B",
+              "altUri": {
+                "desktop": "https://youtu.be/zmU6Z9IquE0?si=1IAKh74Hm0YeA53B"
+              }
+            },
+            "color": "#FF0000"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755256491/%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B8%B5%E0%B9%882_xqwzy6.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ร่างกายคนท้องไตรมาส 2 เปลี่ยนอย่างไรบ้าง?",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "คนท้อง Everything Channel",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ไตรมาส 2 มักปวดหลัง เอว สะโพก ท้องน้อย ขา และอาจปวดศีรษะ เป็นเรื่องปกติจากน้ำหนัก ฮอร์โมน และเส้นเอ็นยืดตัว แต่ถ้ารุนแรงหรือมีเลือดควรพบแพทย์",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://youtu.be/YvGfAD2f3IQ?si=AD9MjnJZRdrfJKaY",
+              "altUri": {
+                "desktop": "https://youtu.be/YvGfAD2f3IQ?si=AD9MjnJZRdrfJKaY"
+              }
+            },
+            "color": "#FF0000"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/ds6xq6wbm/image/upload/v1755256491/%E0%B9%84%E0%B8%95%E0%B8%A3%E0%B8%A1%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B8%B5%E0%B9%883_c8nual.jpg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ไตรมาสสุดท้าย ปวดตรงไหนบ้าง?",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ผู้เขียน",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "คนท้อง Everything Channel",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "เรื่องย่อ",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 2
+                  },
+                  {
+                    "type": "text",
+                    "text": "ไตรมาส 3 มักปวดหลัง เอว สะโพก ขา น่อง ท้องน้อย และกระเบนเหน็บ ปกติจากมดลูกขยายและน้ำหนักเพิ่ม แต่ถ้าเจ็บรุนแรงหรือมีเลือดควรพบแพทย์ทันที",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "ดูรายละเอียด",
+              "uri": "https://youtu.be/qC3g4uYazxo?si=IRInOAzEm74P7RW5",
+              "altUri": {
+                "desktop": "https://youtu.be/qC3g4uYazxo?si=IRInOAzEm74P7RW5"
+              }
+            },
+            "color": "#FF0000"
+          }
+        ]
+      }
+    }
+  ]
+}
+}

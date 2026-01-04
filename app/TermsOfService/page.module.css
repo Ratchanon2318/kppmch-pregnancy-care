@@ -1,0 +1,99 @@
+/**
+ * =====================================================================
+ * STYLES FOR TERMS OF SERVICE PAGE
+ * =====================================================================
+ */
+/* Container หลักของหน้าทั้งหมด กำหนดพื้นหลังและ padding */
+.pageWrapper {
+  background-color: var(--color-brand-pink-lightest);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+/* กล่องสีขาวสำหรับใส่เนื้อหา จัดให้อยู่กึ่งกลางและมีเงา */
+.contentContainer {
+  max-width: 56rem; /* max-w-4xl */
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+  color: var(--text-primary);
+}
+
+/* หัวข้อหลักของหน้า */
+.mainTitle {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-brand-pink);
+  margin-bottom: 1rem;
+}
+
+/* ข้อความ "ปรับปรุงล่าสุด" */
+.lastUpdated {
+  text-align: center;
+  color: var(--text-subtle);
+  margin-bottom: 2.5rem; /* mb-10 */
+}
+
+/* หัวข้อของแต่ละ Section (เช่น 1. บทนำ) */
+.sectionTitle {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700;
+  margin-top: 2.5rem; /* mt-10 */
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-brand-pink-light);
+}
+
+/* ย่อหน้าข้อความทั่วไป */
+.paragraph {
+  margin-bottom: 1.5rem; /* mb-6 */
+  line-height: 1.7;
+}
+
+/* รายการแบบมี bullet point */
+.list {
+  list-style: disc;
+  padding-left: 2rem; /* pl-8 */
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* space-y-2 */
+}
+
+/**
+ * =====================================================================
+ * RESPONSIVE ADJUSTMENTS
+ * =====================================================================
+ * การปรับแก้สไตล์สำหรับหน้าจอขนาดต่างๆ
+ */
+/* sm: สำหรับหน้าจอขนาดเล็ก (640px ขึ้นไป) */
+@media (min-width: 640px) { /* sm */
+  .pageWrapper {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* md: สำหรับ Tablet และ Desktop ขนาดเล็ก (768px ขึ้นไป) */
+@media (min-width: 768px) { /* md */
+  .contentContainer {
+    padding: 3rem;
+  }
+  .mainTitle {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+  .sectionTitle {
+    font-size: 1.875rem; /* md:text-3xl */
+  }
+}
+
+/* lg: สำหรับ Desktop ขนาดใหญ่ (1024px ขึ้นไป) */
+@media (min-width: 1024px) { /* lg */
+  .pageWrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
